@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Nasic Apteka Zawiszy</title>
 </head>
 <body>
@@ -160,5 +160,22 @@
             <img src="https://raw.githubusercontent.com/eStoreLabs/230206-KF-02-Klosterfrau-Nasic-ZAWISZA/master/img/nasic-logo-white.png" alt="nasic" class="es-footer__logo">
         </div>
     </div>
+    <script>
+        function getStyles(href) {
+          var head = document.getElementsByTagName("head")[0];
+          var link = document.createElement("link");
+          link.rel = "stylesheet";
+          link.type = "text/css";
+          link.href = href;
+          head.appendChild(link);
+        }
+        document.onreadystatechange = function () {
+          if (document.readyState === "complete") {
+            getStyles(
+               "https://drive.google.com/uc?export=view&id=1a0l7rkAmxP-UaCSon7YqOOD33GuTxdN9"
+            );
+          }
+        };
+      </script>
 </body>
 </html>
