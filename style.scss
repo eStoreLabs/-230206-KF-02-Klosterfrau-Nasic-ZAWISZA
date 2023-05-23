@@ -269,7 +269,7 @@ $es-grey: #dbf1ef;
         }
         &__textCtn{
             padding: 5px;
-            background-image: url(./img/teal-bg.png);
+            background-image: url(https://raw.githubusercontent.com/eStoreLabs/230206-KF-02-Klosterfrau-Nasic-ZAWISZA/master/img/teal-bg.png);
             background-repeat: no-repeat;
             background-size: contain;
             width: 100px;
@@ -281,7 +281,7 @@ $es-grey: #dbf1ef;
             bottom: 0;
             left: -20px;
             &--kids{
-                background-image: url(./img/blue-bg.png);
+                background-image: url(https://raw.githubusercontent.com/eStoreLabs/230206-KF-02-Klosterfrau-Nasic-ZAWISZA/master/img/blue-bg.png);
                 flex-direction: column;
                 justify-content: flex-start;
                 top:-40px;
@@ -361,7 +361,7 @@ $es-grey: #dbf1ef;
     
   @media screen and (min-width: 900px){
     .es-kv{
-        background-image: url(./img/kv-shadow.png);
+        background-image: url(https://raw.githubusercontent.com/eStoreLabs/230206-KF-02-Klosterfrau-Nasic-ZAWISZA/master/img/kv-shadow.png);
         flex-direction: row;
         align-items: flex-end;
         &__heroCtn{
