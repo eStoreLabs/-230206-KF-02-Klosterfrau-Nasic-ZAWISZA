@@ -60,6 +60,9 @@
 #es-nasic.es-nasic img {
   max-width: 100%;
 }
+#es-nasic.es-nasic em {
+  font-style: normal;
+}
 #es-nasic.es-nasic .es-kv {
   min-height: 450px;
   display: flex;
@@ -189,7 +192,7 @@
 #es-nasic.es-nasic .es-benefits__listItem:hover {
   margin-left: -5px;
 }
-#es-nasic.es-nasic .es-benefits__desc span {
+#es-nasic.es-nasic .es-benefits__desc em {
   font-weight: 800;
 }
 #es-nasic.es-nasic .es-benefits__number {
@@ -217,7 +220,7 @@
   transform: rotate(-5deg);
   color: #029187;
 }
-#es-nasic.es-nasic .es-ingr__desc span {
+#es-nasic.es-nasic .es-ingr__desc em {
   font-weight: 800;
 }
 #es-nasic.es-nasic .es-cross {
@@ -275,7 +278,7 @@
   font-weight: 800;
   margin: 0;
 }
-#es-nasic.es-nasic .es-cross__text span {
+#es-nasic.es-nasic .es-cross__text em {
   font-size: 25px;
 }
 #es-nasic.es-nasic .es-cross__usage {
@@ -284,7 +287,7 @@
   font-size: 20px;
   text-align: center;
 }
-#es-nasic.es-nasic .es-cross__usage span {
+#es-nasic.es-nasic .es-cross__usage em {
   font-size: 16px;
 }
 #es-nasic.es-nasic .es-cross__linkCtn {
@@ -429,7 +432,7 @@
     font-weight: 800;
     margin: 0;
   }
-  #es-nasic.es-nasic .es-cross__text span {
+  #es-nasic.es-nasic .es-cross__text em {
     font-size: 40px;
   }
   #es-nasic.es-nasic .es-footer {

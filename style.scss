@@ -72,6 +72,9 @@ $es-grey: #dbf1ef;
     img{
         max-width: 100%;
     }
+    em {
+        font-style: normal;
+    }
     .es-kv{
         min-height: 450px;
         display: flex;
@@ -202,7 +205,7 @@ $es-grey: #dbf1ef;
             }
         }
         &__desc{
-            span{
+            em{
                 font-weight: 800;
             }
         }
@@ -230,7 +233,7 @@ $es-grey: #dbf1ef;
         &__desc{
             transform: rotate(-5deg);
             color: $es-teal;
-            span{
+            em{
                 font-weight: 800;
             }
         }
@@ -288,7 +291,7 @@ $es-grey: #dbf1ef;
         &__text{
             font-weight: 800;
             margin: 0;
-            span{
+            em {
                 font-size: 25px;
             }
         }
@@ -297,7 +300,7 @@ $es-grey: #dbf1ef;
             font-weight: 800;
             font-size: 20px;
             text-align: center;
-            span{
+            em {
                 font-size: 16px;
             }
         }
@@ -448,7 +451,7 @@ $es-grey: #dbf1ef;
         &__text{
             font-weight: 800;
             margin: 0;
-            span{
+            em {
                 font-size: 40px;
             }
         }
