@@ -450,7 +450,10 @@ $es-grey: #dbf1ef;
         }
         &__text{
             font-weight: 800;
-            margin: 0;
+            &:nth-child(1) {
+                margin-top: 12px;
+            }
+            
             em {
                 font-size: 40px;
             }

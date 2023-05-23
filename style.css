@@ -430,7 +430,9 @@
   }
   #es-nasic.es-nasic .es-cross__text {
     font-weight: 800;
-    margin: 0;
+  }
+  #es-nasic.es-nasic .es-cross__text:nth-child(1) {
+    margin-top: 12px;
   }
   #es-nasic.es-nasic .es-cross__text em {
     font-size: 40px;
